@@ -86,27 +86,32 @@ round_btn = Button(window, text="Switch Activity Round", command=round_switch)
 # User Selects Radiobuttons
 percentage_frame = Frame(window)
 activity_complete = StringVar()
-radio1 = Radiobutton(
-    percentage_frame, text="Plank", variable=activity_complete, value="plank"
-)
-radio2 = Radiobutton(
-    percentage_frame, text="Push Ups", variable=activity_complete, value="pushup"
-)
-radio3 = Radiobutton(
-    percentage_frame, text="Sit Ups", variable=activity_complete, value="situp"
-)
+radio1 = Radiobutton(percentage_frame,
+                     text="Plank",
+                     variable=activity_complete,
+                     value="plank")
+radio2 = Radiobutton(percentage_frame,
+                     text="Push Ups",
+                     variable=activity_complete,
+                     value="pushup")
+radio3 = Radiobutton(percentage_frame,
+                     text="Sit Ups",
+                     variable=activity_complete,
+                     value="situp")
 radio4 = Radiobutton(
     percentage_frame,
     text="Diamond Push Ups",
     variable=activity_complete,
     value="diamond",
 )
-radio5 = Radiobutton(
-    percentage_frame, text="Squats", variable=activity_complete, value="squat"
-)
-radio6 = Radiobutton(
-    percentage_frame, text="Wall Sit", variable=activity_complete, value="wallsit"
-)
+radio5 = Radiobutton(percentage_frame,
+                     text="Squats",
+                     variable=activity_complete,
+                     value="squat")
+radio6 = Radiobutton(percentage_frame,
+                     text="Wall Sit",
+                     variable=activity_complete,
+                     value="wallsit")
 # radio1.select()
 
 # Percentage Complete Return
@@ -204,9 +209,9 @@ def percent_dialog():
 
 
 # Button
-percent_button = Button(
-    percentage_frame, text="Check Percentage", command=percent_dialog
-)
+percent_button = Button(percentage_frame,
+                        text="Check Percentage",
+                        command=percent_dialog)
 
 # Percentage Progress Bar
 bar = Progressbar(window, orient=HORIZONTAL, length=100, mode="determinate")
