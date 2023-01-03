@@ -15,12 +15,12 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
+import os
+import subprocess
+import sys
+import time
 # Import Statements
 from datetime import datetime
-import time
-import os
-import sys
-import subprocess
 
 # PyWorkout Function
 
