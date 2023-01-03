@@ -542,13 +542,16 @@ def workout():
                         print(str(i + 1) + ". " + str(quads[i + activity_num]))
                 elif select == "glutes":
                     for i in range(len(glutes) - len(complete)):
-                        print(str(i + 1) + ". " + str(glutes[i + activity_num]))
+                        print(str(i + 1) + ". " +
+                              str(glutes[i + activity_num]))
                 elif select == "triceps":
                     for i in range(len(triceps) - len(complete)):
-                        print(str(i + 1) + ". " + str(triceps[i + activity_num]))
+                        print(str(i + 1) + ". " +
+                              str(triceps[i + activity_num]))
                 elif select == "biceps":
                     for i in range(len(biceps) - len(complete)):
-                        print(str(i + 1) + ". " + str(biceps[i + activity_num]))
+                        print(str(i + 1) + ". " +
+                              str(biceps[i + activity_num]))
                 elif select == "back":
                     for i in range(len(back) - len(complete)):
                         print(str(i + 1) + ". " + str(back[i + activity_num]))
