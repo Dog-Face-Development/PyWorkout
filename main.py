@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-#pylint: disable=redefined-builtin, global-variable-undefined
+# pylint: disable=redefined-builtin, global-variable-undefined
 
 import os
 import subprocess
